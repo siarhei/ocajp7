@@ -20,6 +20,7 @@ public class LocalVar {
 
 	class Inner {
 		//static void doRec() {} //illegal
+		void doRec() {}
 	}
 
 	static class Nested {
