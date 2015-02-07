@@ -10,6 +10,6 @@ public class TestAnimals {
 
 		a.eat();
 		b.eat();
-		new Horse().eat();	
+		new Horse().eat();
 	}
 }
