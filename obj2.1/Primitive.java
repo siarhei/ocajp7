@@ -47,4 +47,11 @@ class PrimitiveCasting {
 	//BUT
 	byte b7 = 5;
 	//{ b7 = b7 + 9; } //error: possible loss of precision
+
+	char c1 = 60;
+	//char c2 = -60; //error: possible loss of precision
+	char c3 = 0b01101111;
+	char c4 = (char) 131.42;
+	char c5 = 0xAB;
+	char c6 = 07612;
 }
