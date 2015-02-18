@@ -54,4 +54,10 @@ class PrimitiveCasting {
 	char c4 = (char) 131.42;
 	char c5 = 0xAB;
 	char c6 = 07612;
+
+	{
+		long s = 51;
+		long s1 = (int) 45 + 1051;
+		float f1 = 0.51F + 0.39F;
+	}
 }
