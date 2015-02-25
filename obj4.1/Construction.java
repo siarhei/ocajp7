@@ -41,7 +41,7 @@ public class Construction {
 		Honda[] hondas = new Honda[5];
 		cars = hondas;
 		Beer[] beers = {new Beer(), new Beer()};
-		cars = beers;
+		cars = beers; //error: incompatible types
 	}
 }
 
