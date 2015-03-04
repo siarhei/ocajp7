@@ -23,7 +23,7 @@ public class Switch {
 	void switchLongCast() {
 		long x = 0;
 		switch ((int) x) {
-			case 0:
+			case 0: //OK
 		}
 	}
 
