@@ -8,8 +8,8 @@ public class ReadData {
 			raf.readFully(b, 0, 1000);
 		} catch (IOException e) {
 
-		} catch (FileNotFoundException e) {
-			
+		} catch (FileNotFoundException e) { //error: exception FileNotFoundException has already been caught
+
 		}
 	}
 }
